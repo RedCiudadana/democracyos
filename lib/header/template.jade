@@ -24,6 +24,3 @@
     a(href='/signup', style=style).login.pull-right.anonymous-user
       i.icon-user
       span= t('header.signup')
-    - var target = config.homeLink ? {} : { 'target': '_blank'};
-    a.login.pull-left(href=config.organizationUrl, style=style)&attributes(target)
-      span= config.organizationName
